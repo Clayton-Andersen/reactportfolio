@@ -1,23 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Jumbotron from './components/Jumbotron';
+import About from './components/About';
+import Showcase from './components/Showcase';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Homepage from './pages/Home';
+import Aboutpage from './pages/About';
+import { useState } from 'react';
+
 
 function App() {
+  const [pageRender, setPageRender] = useState('home')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar pageRender={pageRender} setPageRender={setPageRender} />
+      {pageRender === 'home' ? <Homepage /> : ""}
+      {pageRender === 'About Me' ? <Aboutpage /> : ""}
+      {pageRender === 'My Showcase' ? <Showcase /> : ""}
+      {pageRender === 'Contact' ? <Contact /> : ""}
+
+      <section className="the-meat">
+
+      </section>
+      <Footer />
     </div>
   );
 }
