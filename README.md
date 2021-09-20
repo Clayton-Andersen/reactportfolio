@@ -3,7 +3,7 @@
 # Clayton Andersen
 
 ## description
-Second version of portfolio created using react to house my various works.  
+Second version of portfolio created using the React framework to house my various works.  
 
 ## Table of Contents
 * [Screenshots](#screenshots)
@@ -23,6 +23,9 @@ Deployed on github-pages: https://clayton-andersen.github.io/reactportfolio/
 
 ## Technologies
 React
+Bootstrap
+CSS 
+Javascript
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
