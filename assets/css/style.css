@@ -1,0 +1,223 @@
+/* font-family: 'Raleway', sans-serif;*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #0f94b6;
+    --secondary-color: #041d11;
+    --tertiary-color: #ff52b1;
+    --more: #889c91;
+}
+
+body {
+    color: var(--secondary-color);
+}
+
+/* header start */
+header {
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    padding: 30px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+   
+header h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    margin: 0 10px 5vh 10px;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+header nav ul li a {
+      font-size: 1.55vw;
+      padding: 10px 15px;
+  }
+/* header end */
+
+/* footer start */
+footer {
+    background-color: var(--tertiary-color);
+    width: 100%;
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-size: 1.55vw;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+footer div {
+    text-align: right;
+    color: var(--primary-color);
+    line-height: 1.5;
+    margin: 0 15px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+/* end footer*/
+
+/* hero start */
+  .hero {
+      background-image: url("../images/Salt-Flats2.jpeg");
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+     
+  }
+
+  .hero h2 {
+    padding-top: 10%;
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+  }
+/* hero end */
+
+/* about me section start */
+  .about {
+      background-color: #889c91;    
+      min-height: 100vh;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .about img {
+      display: flex;
+      width: 100%;
+      padding: 5% 5% 5% 5%;
+      align-items: center;
+  }
+
+  .about-me > div {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: center;
+    font-size: 30px;
+  }
+/* about me section end*/
+
+/* showcase start */
+
+.showcase {
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(121, 233, 158);
+    min-height: 100vh;
+    align-items: stretch;
+}
+
+.showcase h3 {
+    padding: 3% 0 0 3%;
+}
+.showcase p{
+    padding: 0 0 10% 3%
+}
+.showcase img {
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+}
+
+.flex-row {
+    display: flex;
+    
+}
+  .about, .showcase, .get-in-touch {
+      font-size: 30px;
+  }
+
+/* .showcase {
+      align-items: flex stretch; 
+
+/* contact section start */
+
+.get-in-touch {
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(49, 218, 175);
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero{
+      width: 100%;
+    }
+   
+    .about {
+      width: 100%;
+    }
+  
+    .about img {
+      width: 100%;
+    }
+  
+    .about-me {
+        flex-wrap: wrap;
+    }
+  }
