@@ -3,7 +3,7 @@ const Footer = () => {
         <footer>
     <h2>Happy Coding!</h2>
     <div>
-      <a href="#">Lets do that again!</a><br />
+      <a href="home">Lets do that again!</a><br />
       © Clayton Andersen
     </div>
   </footer >

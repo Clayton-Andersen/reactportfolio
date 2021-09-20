@@ -6,7 +6,7 @@ const Navbar = (props) => {
     return (
         <header>
             <h1>
-                <a onClick={navigation}>Clayton Andersen</a>
+                <a onClick={navigation} href="home" >Clayton Andersen</a>
             </h1>
             <nav>
                 <ul>

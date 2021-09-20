@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
@@ -20,6 +19,8 @@ function App() {
       {pageRender === 'About Me' ? <Aboutpage /> : ""}
       {pageRender === 'My Showcase' ? <Showcase /> : ""}
       {pageRender === 'Contact' ? <Contact /> : ""}
+      {pageRender === 'Jumbotron' ? <Jumbotron /> : ""}
+      {pageRender === 'About' ? <About /> : ""}
 
       <section className="the-meat">
 
