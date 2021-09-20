@@ -7,7 +7,7 @@ Second version of portfolio created using react to house my various works.
 
 ## Table of Contents
 * [Screenshots](#screenshots)
-* [Technologies}(#technologies)
+* [Technologies](#technologies)
 * [Credits](#credits)
 * [Github](#Github)
 * [Heroku](#Heroku)
