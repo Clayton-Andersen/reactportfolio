@@ -7,7 +7,7 @@ const About = () => {
                     big ideas to life.</p>
             </div>
             <div>
-                <img src="./assets/images/spider.jpg" alt="Clayton Andersen and a giant spider" />
+                <img src="./assets/images/LinkedIn.JPG" alt="Profile Photo of Clayton Andersen" />
             </div>
         </div>
     )
