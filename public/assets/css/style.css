@@ -119,10 +119,7 @@ footer a {
 
   .about img {
       display: flex;
-      width: 400px;
-      height: 400px;
-      border-radius: 50%;
-      object-fit: cover;
+      width: 100%;
       padding: 5% 5% 5% 5%;
       align-items: center;
   }
