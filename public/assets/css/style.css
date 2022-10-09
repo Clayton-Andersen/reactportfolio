@@ -19,7 +19,7 @@ body {
 /* header start */
 header {
     color: var(--primary-color);
-    background-color: var(--tertiary-color);
+    background-color: black;
     padding: 30px 35px;
     display: flex;
     justify-content: space-between;
