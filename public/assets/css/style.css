@@ -4,11 +4,13 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 :root {
     --primary-color: #0f94b6;
     --secondary-color: #041d11;
-    --tertiary-color: #ff52b1;
+    --tertiary-color: black;
     --more: #889c91;
 }
 
@@ -20,17 +22,18 @@ body {
 header {
     color: var(--primary-color);
     background-color: var(--tertiary-color);
-    padding: 30px 35px;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    text-align: center;
+    align-items: center;
 }
 
 header a {
     text-decoration: none;
+    color: var(--primary-color)
 }
    
 header h1 {
@@ -111,6 +114,7 @@ footer a {
   .about {
       background-color: #889c91;    
       min-height: 100vh;
+      padding: 1.5rem 6rem;
       display: flex;
       flex-wrap: nowrap;
       justify-content: center;
@@ -118,10 +122,13 @@ footer a {
   }
 
   .about img {
-      display: flex;
-      width: 100%;
-      padding: 5% 5% 5% 5%;
-      align-items: center;
+    display: flex;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10% 10%;
+    align-items: center;
   }
 
   .about-me > div {

@@ -11,13 +11,13 @@ const Navbar = (props) => {
             <nav>
                 <ul>
                     <li>
-                        <a onClick={navigation}>About Me</a>
+                        <a onClick={navigation} href>About Me</a>
                     </li>
                     <li>
-                        <a onClick={navigation}>My Showcase</a>
+                        <a onClick={navigation} href>My Showcase</a>
                     </li>
                     <li>
-                        <a onClick={navigation}>Contact</a>
+                        <a onClick={navigation} href>Contact</a>
                     </li>
                 </ul>
             </nav>
